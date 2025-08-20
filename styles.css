@@ -1,0 +1,76 @@
+/* styles.css - estilo juvenil */
+
+
+body {
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+color: #333;
+margin: 0;
+padding: 20px;
+}
+
+
+h1 {
+text-align: center;
+color: #ff4b5c;
+font-size: 2.5rem;
+text-shadow: 2px 2px #fff;
+}
+
+
+section {
+background: #fff;
+border-radius: 15px;
+padding: 20px;
+margin: 20px 0;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+h2 {
+color: #ff4b5c;
+border-left: 6px solid #ff4b5c;
+padding-left: 8px;
+}
+
+
+a {
+color: #1e90ff;
+text-decoration: none;
+font-weight: 600;
+transition: 0.3s;
+}
+
+
+a:hover {
+color: #ff4b5c;
+text-decoration: underline;
+}
+
+
+ul, ol {
+margin-left: 25px;
+}
+
+
+li {
+margin: 10px 0;
+font-size: 1.1rem;
+}
+
+
+/* Botones estilo juvenil */
+li a {
+display: inline-block;
+background: #1e90ff;
+color: #fff;
+padding: 8px 15px;
+border-radius: 25px;
+transition: 0.3s;
+}
+
+
+li a:hover {
+background: #ff4b5c;
+transform: scale(1.05);
+}
