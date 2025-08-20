@@ -1,55 +1,60 @@
 /* styles.css - estilo juvenil */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+
 body {
-font-family: 'Poppins', sans-serif;
-background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+font-family: 'Nunito', sans-serif;
+background: linear-gradient(135deg, #a18cd1, #fbc2eb);
 color: #333;
 margin: 0;
-padding: 20px;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.container {
+background: #fff;
+border-radius: 20px;
+padding: 40px;
+max-width: 700px;
+width: 90%;
+box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+text-align: center;
 }
 
 
 h1 {
-text-align: center;
-color: #ff4b5c;
+color: #6a0dad;
 font-size: 2.5rem;
-text-shadow: 2px 2px #fff;
-}
-
-
-section {
-background: #fff;
-border-radius: 15px;
-padding: 20px;
-margin: 20px 0;
-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+margin-bottom: 20px;
 }
 
 
 h2 {
-color: #ff4b5c;
-border-left: 6px solid #ff4b5c;
-padding-left: 8px;
+color: #a64ca6;
+margin-top: 25px;
 }
 
 
 a {
-color: #1e90ff;
+color: #6a0dad;
 text-decoration: none;
 font-weight: 600;
-transition: 0.3s;
 }
 
 
 a:hover {
-color: #ff4b5c;
-text-decoration: underline;
+color: #d46ae8;
 }
 
 
 ul, ol {
-margin-left: 25px;
+text-align: left;
+margin-left: 30px;
 }
 
 
@@ -59,18 +64,19 @@ font-size: 1.1rem;
 }
 
 
-/* Botones estilo juvenil */
 li a {
 display: inline-block;
-background: #1e90ff;
+background: #a64ca6;
 color: #fff;
 padding: 8px 15px;
-border-radius: 25px;
+border-radius: 20px;
 transition: 0.3s;
 }
 
 
 li a:hover {
-background: #ff4b5c;
+background: #d46ae8;
 transform: scale(1.05);
 }
+
+
